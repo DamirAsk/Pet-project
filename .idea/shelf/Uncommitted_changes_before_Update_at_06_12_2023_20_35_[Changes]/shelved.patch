@@ -1,0 +1,108 @@
+Index: main.html
+===================================================================
+diff --git a/main.html b/main.html
+deleted file mode 100644
+--- a/main.html	(revision dd495afb300bc5b813147277a41a897da408adf9)
++++ /dev/null	(revision dd495afb300bc5b813147277a41a897da408adf9)
+@@ -1,65 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-<head>
+-    <meta charset="UTF-8" />
+-    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+-    <title>Document</title>
+-    <link rel="stylesheet" href="style.css">
+-</head>
+-<body>
+-    <!-- hover -->
+-    <a class="link" href="side.html">Подробнее</a>
+-
+-    <!-- transform-->
+-<!--
+-    <div id="callback">
+-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo voluptates laudantium veritatis explicabo accusamus dignissimos.</p>
+-    </div>
+--->
+-    <!-- card -->
+-    <div class="container">
+-        <div class="card">
+-            <div class="product">
+-               <img src="https://avatars.mds.yandex.net/i?id=adc64029498563f182d145261c4c1ef341655e02-4281133-images-thumbs&n=13" width="300" alt="image" />
+-            </div>
+-            <div class="description">
+-               <h2>Product Name</h2>
+-               <hr />
+-               <p>
+-                    Python - высокоуровневый язык программирования общего назначения с динамической строгой типизацией и автоматическим управлением памятью, ориентированный на повышение производительности разработчика, читаемости кода и его качества, а также на обеспечение переносимости написанных на нём программ. Язык является полностью объектно-ориентированным в том плане, что всё является объектами. Необычной особенностью языка является выделение блоков кода отступами.
+-               </p>
+-    <!--           <a href="#">buy</a>-->
+-            </div>
+-        </div>
+-        <div class="card">
+-            <div class="product">
+-               <img src="https://avatars.mds.yandex.net/i?id=b0df687d83940f76de8cd70e5cb062b005b85205-4841129-images-thumbs&n=13" width="300" alt="image" />
+-            </div>
+-            <div class="description">
+-               <h2>Git</h2>
+-               <hr />
+-               <p>
+-                    Git — распределённая система управления версиями. Проект был создан Линусом Торвальдсом для управления разработкой ядра Linux, первая версия выпущена 7 апреля 2005 года; координатор — Дзюн Хамано.Среди проектов, использующих Git, — ядро Linux, Swift, Android, Drupal, Cairo, GNU Core Utilities, Mesa, Wine, Chromium, Compiz Fusion, FlightGear, jQuery, PHP, NASM, MediaWiki, DokuWiki, Qt, ряд дистрибутивов Linux.Программа является свободной и выпущена под лицензией GNU GPL версии 2.
+-               </p>
+-    <!--           <a href="#">buy</a>-->
+-            </div>
+-        </div>
+-        <div class="card">
+-            <div class="product">
+-               <img src="https://avatars.mds.yandex.net/i?id=4eb0eed6211cf2ab4c7d0e08f12e7077a1b66094-4487962-images-thumbs&n=13" width="300" alt="image" />
+-            </div>
+-            <div class="description">
+-               <h2>Product Name</h2>
+-               <hr />
+-               <p>
+-                    SQL — это язык программирования, который очень напоминает английский, но предназначен для программ управления базами данных. SQL используется в каждом запросе в Access.Понимание принципов работы SQL помогает создавать более точные запросы и упрощает исправление запросов, которые возвращают неправильные результаты.
+-               </p>
+-    <!--           <a href="#">buy</a>-->
+-            </div>
+-        </div>
+-    </div>
+-    <!-- animation -->
+-<!--    <h1>Some News</h1>-->
+-</body>
+-</html>
+Index: README.md
+===================================================================
+diff --git a/README.md b/README.md
+deleted file mode 100644
+--- a/README.md	(revision dd495afb300bc5b813147277a41a897da408adf9)
++++ /dev/null	(revision dd495afb300bc5b813147277a41a897da408adf9)
+@@ -1,2 +0,0 @@
+-# Pet-project
+-# append
+\ No newline at end of file
+Index: .idea/git_toolbox_prj.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/git_toolbox_prj.xml b/.idea/git_toolbox_prj.xml
+new file mode 100644
+--- /dev/null	(date 1701789371852)
++++ b/.idea/git_toolbox_prj.xml	(date 1701789371852)
+@@ -0,0 +1,15 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="GitToolBoxProjectSettings">
++    <option name="commitMessageIssueKeyValidationOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++    <option name="commitMessageValidationEnabledOverride">
++      <BoolValueOverride>
++        <option name="enabled" value="true" />
++      </BoolValueOverride>
++    </option>
++  </component>
++</project>
+\ No newline at end of file
